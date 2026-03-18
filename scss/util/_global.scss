@@ -1,0 +1,23 @@
+@use './vars' as *;
+@use './mixins' as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  padding: 20px;
+  font-size: 18px;
+  color: var(--text);
+  background: var(--bg);
+  input, button {
+    font-family: Monospace;
+  }
+}
+h1 {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}

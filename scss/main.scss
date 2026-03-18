@@ -1,0 +1,9 @@
+
+@use './util/' as *;
+@use './components/' as *;
+
+.attribution {
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+}
