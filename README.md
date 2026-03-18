@@ -3,7 +3,7 @@
 A simple tool built to help aluminum craftsmen calculate prices and reduce manual work in the workshop. This is the home page of the project.
 ## Live Demo
 
-[Try the app here](https://ehiejakhian.github.io/My__Work__Calcs/)
+[Try the app here](https://aluminum-calcs.github.io/)
 
 ## Background
 
