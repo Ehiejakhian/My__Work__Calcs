@@ -1,38 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CALC</title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./scss/css/main.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="title" content="Aluminum Calc | Item Price Calc" />
+  <link rel="shortcut icon" href="./assets/images/logos/logo.png" type="image/x-icon">
+  <title>Aluminum Calc | Item Price Calc</title>
+
+  <meta 
+    name="description" 
+    content="Hey there! I'm Ehi Ejakhian — a curious Front-end Developer and Arduino tinkerer. This is a part of a project of mine which I hope makes calculating items bought in aluminum stores easier. Feel free to check it out and use it."
+  />
+  <meta 
+    name="keywords" 
+    content="Ehi, ehiejakhian, Ejakhian, Front-end, web development, Web developer, html, scss, javascript, Ehi Ejakhian, ehi, Ejakhian Ehi, ejakhian ehi, ejakhianehi, aluminum, aluminum fabrication, ohons tech"
+  />
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="theme-color" content="#fff">
+  <meta name="author" content="Ehi Ejakhian">
+
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aluminum-calcs.github.io/item-price-calc/" />
+  <meta property="og:title" content="Aluminum Calc | Item Price Calc">
+  <meta 
+    property="og:description" 
+    content="Hey there! I'm Ehi Ejakhian — a curious Front-end Developer and Arduino tinkerer. This is a part of a project of mine which I hope makes calculating items bought in aluminum stores easier. Feel free to check it out and use it."
+  />
+  <meta property="og:image" content="https://aluminum-calcs.github.io/item-price-calc/assets/images/logos/logo.png">
+
+  <!-- X (Twitter) -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:url" content="https://aluminum-calcs.github.io/" />
+  <meta property="twitter:title" content="Aluminum Calc | Item Price Calc" />
+  <meta 
+    property="twitter:description" 
+    content="Hey there! I'm Ehi Ejakhian — a curious Front-end Developer and Arduino tinkerer. This is a part of a project of mine which I hope makes calculating items bought in aluminum stores easier. Feel free to check it out and use it."
+  />
+  <meta property="twitter:image" content="https://aluminum-calcs.github.io/item-price-calc/assets/images/logos/logo.png" />
+
+
+  <!-- STYLESHEETS -->
+  <!-- <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="./scss/css/main.css" />
 </head>
 <body>
+  <div class="loader active">
+    <div class="content">
+      <svg viewBox="0 0 10 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" y="0.5" width="9" height="17" stroke="black"/>
+        <path d="M0.5 15.5V26H3V24M9.5 15.5V26H7V24" stroke="black"/>
+      </svg>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <h2>Aluminum Calc</h2>
+      </div>
+      <input type="checkbox" id="ch" />
+      <label for="ch" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="ch" class="overlay"></label>
+      <nav>
+        <label for="ch" class="close">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+  
+        <ul>
+          <li><a href="ehiejakhian.github.io/OHONS-TECH/">Visit Ohons Tech </a></li>
+          <li><a href="ehiejakhian.github.io/OHONS-TECH/">Contact the developer</a></li>
+          <button><a href="ehiejakhian.github.io/">Meet The Developer</a></button>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main>
-    <h1>Aluminum Calculators</h1>
-    <ol class="tools">
-      <li><a href="https://aluminum-calcs.github.io/glass-price-calc/">
-        <h4>GlassPrice Calculator</h4>
-        <p>Calculate glass prices based in units measurement.</p>
-      </a></li>
-      <li><a href="https://aluminum-calcs.github.io/sliding-window-calc/">
-        <h4>Sliding window Calculator</h4>
-        <p>Easily calculate Sliding window measurements</p>
-      </a></li>
-      <li><a href="https://aluminum-calcs.github.io/channels/">
-        <h4>Aluminum Channels</h4>
-        <p>learn about local Aluminum channels and their uses</p>
-      </a></li>
-      <li><a href="https://aluminum-calcs.github.io/item-price-calc/">
-        <h4>Item price calculator</h4>
-        <p>Calculate and tabulate item prices easily</p>
-      </a></li>
-    </ol>
+    <section class="links">
+      <ol class="tools">
+        <li>
+          <h4>GlassPrice Calculator</h4>
+          <p>Calculate glass prices based on unit measurement.</p>
+          <a href="https://aluminum-calcs.github.io/glass-price-calc/">Check it Out!</a>
+        </li>
+
+        <li>
+          <h4>Sliding window Calculator</h4>
+          <p>Easily calculate Sliding window measurements</p>
+          <a href="https://aluminum-calcs.github.io/sliding-window-calc/">Try it.</a>
+        </li>
+
+        <li>
+          <h4>Aluminum Channels</h4>
+          <p>learn about local Aluminum channels and their uses</p>
+          <a href="https://aluminum-calcs.github.io/channels/">Learn More</a>
+        </li>
+
+        <li>
+          <h4>Item price calculator</h4>
+          <p>Calculate and tabulate item prices easily</p>
+          <a href="https://aluminum-calcs.github.io/item-price-calc/">Start Now</a>
+        </li>
+      </ol>
+    </section>
   </main>
 
-  <div class="attribution">
-    Coded by <a href="https://ehiejakhian.github.io/"><b>Ehi Ejakhian</b></a>
-  </div>
+  <footer class="footer">
+    <div class="footer__content">
+      <p>
+        <span>Meet the developer</span>
+        <a href="https://ehiejakhian.github.io/">Ehi Ejakhian</a>
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="./scripts/loader.js" type="module"></script>
 </body>
 </html>
